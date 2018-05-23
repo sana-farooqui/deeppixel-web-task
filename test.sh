@@ -8,7 +8,6 @@
 PORT=8080
 HOST="http://localhost:"${PORT}
 
-POST=$1
 
 if [ "$1" == "GET" ]; then
 	curl --request GET ${HOST}"/read"
